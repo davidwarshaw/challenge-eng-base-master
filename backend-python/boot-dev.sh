@@ -2,7 +2,7 @@
 
 cd /app
 echo "Installing challenge package for live development.."
-pip install -e .
+pip install -r requirements.txt -e .
 
 echo "Starting server.."
 export FLASK_APP=app.py

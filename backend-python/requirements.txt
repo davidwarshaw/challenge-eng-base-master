@@ -1,2 +1,5 @@
 flask
-PyMySQL
+flask_api
+elasticsearch
+pandas
+requests
